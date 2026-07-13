@@ -2,55 +2,142 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<title>Internal Documents</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نظام الأرشفة الإلكترونية</title>
 
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Tahoma,Arial,sans-serif;
+}
+
 body{
-font-family:Arial;
-max-width:700px;
-margin:auto;
-padding:30px;
-background:#f5f5f5;
+background:#f2f5f9;
 }
-.card{
-background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 0 10px #ccc;
-}
-a{
-display:block;
-margin:15px 0;
-padding:12px;
-background:#0b5ed7;
+
+header{
+background:#003366;
 color:white;
-text-decoration:none;
-border-radius:8px;
+padding:25px;
 text-align:center;
 }
+
+.container{
+max-width:850px;
+margin:40px auto;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.12);
+}
+
+h2{
+color:#003366;
+margin-bottom:20px;
+}
+
+.info{
+line-height:2.2;
+font-size:18px;
+}
+
+.button{
+display:block;
+text-decoration:none;
+background:#0056b3;
+color:white;
+padding:15px;
+margin-top:18px;
+text-align:center;
+border-radius:10px;
+font-size:18px;
+transition:.3s;
+}
+
+.button:hover{
+background:#003d80;
+}
+
+footer{
+text-align:center;
+margin:30px;
+color:#777;
+}
+
 </style>
 
 </head>
 
 <body>
 
+<header>
+
+<h1>شركة الهروج للعمليات النفطية</h1>
+
+<p>نظام الوصول السريع للوثائق بواسطة QR Code</p>
+
+</header>
+
+<div class="container">
+
 <div class="card">
 
-<h2>Internal Documents</h2>
+<h2>بيانات الملف</h2>
 
-<p>
-Administrative Contracts & Agreements
-</p>
+<div class="info">
 
-<a href="ضع رابط الـ PDF هنا">
-📄 Download PDF
+<b>رقم الملف:</b> 2026-001
+
+<br>
+
+<b>الإدارة:</b> إدارة الخدمات
+
+<br>
+
+<b>المحتوى:</b>
+
+العقود الإدارية والخدمية والاتفاقيات
+
+<br>
+
+<b>آخر تحديث:</b>
+
+13 / 07 / 2026
+
+</div>
+
+<a class="button"
+href="ضع رابط PDF هنا"
+target="_blank">
+
+📄 فتح ملف PDF
+
 </a>
 
-<a href="ضع رابط فيديو اليوتيوب هنا">
-🤟 Sign Language Video
+<a class="button"
+href="ضع رابط فيديو اليوتيوب هنا"
+target="_blank">
+
+🤟 فيديو بلغة الإشارة
+
 </a>
 
 </div>
+
+</div>
+
+<footer>
+
+© Al-Hurouj Oil Operations Company
+
+</footer>
 
 </body>
 </html>
